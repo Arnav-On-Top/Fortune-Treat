@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Fortune Cookie</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box">
+            <button onclick="darkMode()"> Dark Mode</button>
+            <h1> Fortune Cookie</h1>
+            <input id="name" placeholder="Enter your name">
+            <p> Click the Cookie</p>
+            <div id="cookie" onclick="openCookie()">🍪</div>
+            <h2 id="message"> Your Message Will Appear Here.</h2>
+            <h3 id="luckynumber"> Your Lucky Number Will Appear Here.</h3>
+            <h3 id="count"> Cookies Opened: 0</h3>
+            <h3 id="remaining"> Remaining fortunes: 8</h3>
+            <h3 id="best"> Best lucky number: 0</h3>
+            <button onclick="resetCookie()"> Reset</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
